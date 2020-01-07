@@ -1,11 +1,5 @@
 <?php
 
-/** 
- * The translation function
- * @author     devslib.com
- * @link       https://devslib.com/translate-a-php-web-app
- */ 
-
 function __($identifier, $echo = true, $data=''){
 	// fetch language array
 	global $languages;
